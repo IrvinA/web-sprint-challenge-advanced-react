@@ -89,8 +89,21 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a stateful and a functional component?
 
+  The main difference between stateful (class) component and functional (stateless) components, 
+  is that functional components are mainly responsible for rendering something to the UI, where stateful components will implement logic and state. 
+
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+
+  A componentWillMount function should be called when first retrieving or setting data to the DOM. 
+  Whereas, componentWillUpdate should be called when a change in state is expected within the DOM
 
 3. Define stateful logic.
 
+  Stateful logic is any code that deals with the creation or change of data.
+
 4. What are the three step of creating a successful test? What is done in each phase?
+
+  the 3 stages of successful testing are Arrange, Act and Assert.
+  The arrange stage is where we define our components to be tested.
+  The act stage is where we write out the code to perform our test.
+  The assert stage is the piece of code that verifies the result of our act code.
